@@ -1,4 +1,3 @@
-import os
 import argparse
 import logging
 
@@ -10,8 +9,6 @@ console_handler.setLevel(logging.INFO)
 
 def main():
     video_dir = None
-    skip_eval = True
-    log_report = False
 
     parser = argparse.ArgumentParser(
         prog=__name__,
